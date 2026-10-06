@@ -60,8 +60,8 @@
 
   const margin = {
     top: 15,
-    bottom: 50,
-    left: 30,
+    bottom: 70,
+    left: 50,
     right: 10,
   };
 
