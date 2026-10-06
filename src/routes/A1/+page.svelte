@@ -12,7 +12,7 @@
   // Function to load the CSV
   async function loadCsv() {
     try {
-      const csvUrl = "/summer_movies.csv";
+      const csvUrl = "./summer_movies.csv";
       movies = await d3.csv(csvUrl, (row) => {
         // TIP: in row, all values are strings, so we need to use a row conversion function here to format them
         return {
