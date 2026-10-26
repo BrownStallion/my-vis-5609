@@ -7,3 +7,8 @@ export {Q1}
 
 import Q2 from './Q2.svelte'
 export {Q2}
+
+import Scatter from './Scatter.svelte'
+import Line from './Line.svelte'
+
+export {Scatter, Line}
